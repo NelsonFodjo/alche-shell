@@ -4,7 +4,7 @@ read -p 'Enter your file name: ' file
 read -p 'Enter the command: ' cmd
 
 touch "$file"
-echo -e "#!/bin/bash\n${cmd}\n" > $file
+echo -e "#!/bin/bash\n${cmd}" > $file
 chmod u+x "$file"
 
 git add .
