@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 text | paste -sd ""
+cut -c1 | paste -sd ""
