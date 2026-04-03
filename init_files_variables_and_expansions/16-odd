@@ -1,2 +1,4 @@
 #!/bin/bash
 while read line; do printf "%sn" "$line"; read skip; done
+#!/bin/bash
+grep -n '^' | grep '^[0-9]*[13579]:' | cut -d: -f2-
