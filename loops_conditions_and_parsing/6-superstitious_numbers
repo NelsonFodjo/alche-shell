@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Working on 6-superstitious_numbers
+i=1
+while [ $i -lt 21 ]; do
+	if [ $i -eq 4]; then
+		echo "bad luck from China"
+	elif [ $i -eq 9 ]; then
+		echo "bad luck from Japan"
+	elif [ $i -eq 17 ]; then
+		echo "bad luck from Italy"
+	fi
+	echo "$i"
+done
