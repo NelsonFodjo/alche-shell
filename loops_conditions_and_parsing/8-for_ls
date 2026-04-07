@@ -3,3 +3,4 @@
 for file in *; do
 	echo "$file"
 done
+mv 8-for_ls for_ls
