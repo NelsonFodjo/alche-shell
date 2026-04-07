@@ -10,5 +10,5 @@ while [ $i -lt 21 ]; do
 		echo "bad luck from Italy"
 	fi
 	echo "$i"
-	(($i++))
+	((i++))
 done

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Working on 8-for_ls
+for file in *; do
+	echo "$file"
+done
