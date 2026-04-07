@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Working onfor_ls
-mv 8-for_ls for_ls
+
 for file in *; do
-	echo "$file"
+	echo "$file" | cut -d'-' -f2-
 done
