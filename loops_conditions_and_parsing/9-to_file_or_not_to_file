@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #Working on 9-to_file_or_not_to_file
-if [ -f "school" ] && [ -e "school" ]; then
+if [ -f "school" ]; do
+	echo "school file existrsxis"
+if [ -s "school" ]; then
 	echo "school file is not empty"
 elif [ -f "school" ]; then
 	echo "school file is empty"
