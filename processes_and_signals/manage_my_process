@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Working on manage_my_process
-whilte true; do
+while true; do
 	echo "I am alive!" >> /tmp/my_process
 	sleep 2
 done
